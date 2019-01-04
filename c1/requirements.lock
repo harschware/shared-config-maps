@@ -1,0 +1,6 @@
+dependencies:
+- name: cm1
+  repository: file://../cm1
+  version: 0.1.0
+digest: sha256:516072d6ddd1d52c7f6cbf55b889870d65d01b43c9eb26dc3642d11b86f11878
+generated: 2019-01-04T14:36:06.423892-08:00

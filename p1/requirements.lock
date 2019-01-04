@@ -1,0 +1,9 @@
+dependencies:
+- name: c1
+  repository: file://../c1
+  version: 0.1.0
+- name: c2
+  repository: file://../c2
+  version: 0.1.0
+digest: sha256:ccb698d15c83683bbb11bd79a6bf0c8224be09f921e155f249f18b0cc9f1ffcc
+generated: 2019-01-04T14:36:17.616052-08:00
