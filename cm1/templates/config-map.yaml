@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: {{ template "cm1.fullname" . }}-kylo-encryption-key
+  name: {{ template "cm1.fullname" . }}-config-map
   labels:
     app: {{ template "cm1.name" . }}
     chart: {{ template "cm1.chart" . }}
