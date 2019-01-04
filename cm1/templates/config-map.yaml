@@ -1,0 +1,14 @@
+{{- $chartid := {{ template "cm1.fullname" . }}-kylo-encryption-key -}}
+{{ if eq $chartloaded  }}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ template "cm1.fullname" . }}-kylo-encryption-key
+  labels:
+    app: {{ template "cm1.name" . }}
+    chart: {{ template "cm1.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+data:
+    key1: "value1"
+{{ end }}

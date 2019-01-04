@@ -1,0 +1,4 @@
+dependencies:
+    - name: cm1
+      repository: file://../cm1
+      version: 0.1.0

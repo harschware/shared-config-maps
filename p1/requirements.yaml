@@ -1,0 +1,7 @@
+dependencies:
+    - name: c1
+      repository: file://../c1
+      version: 0.1.0
+    - name: c2
+      repository: file://../c2
+      version: 0.1.0
